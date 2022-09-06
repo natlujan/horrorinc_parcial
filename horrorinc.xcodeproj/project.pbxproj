@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D125A3F28C79992005BAF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A3E28C79992005BAF28 /* AppDelegate.swift */; };
+		3D125A4128C79992005BAF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A4028C79992005BAF28 /* ViewController.swift */; };
+		3D125A4428C79992005BAF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D125A4228C79992005BAF28 /* Main.storyboard */; };
+		3D125A4628C79993005BAF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D125A4528C79993005BAF28 /* Assets.xcassets */; };
+		3D125A4928C79993005BAF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D125A4728C79993005BAF28 /* LaunchScreen.storyboard */; };
+		3D125A5428C79993005BAF28 /* horrorincTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A5328C79993005BAF28 /* horrorincTests.swift */; };
+		3D125A5F28C79993005BAF28 /* horrorincUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A5E28C79993005BAF28 /* horrorincUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D125A5028C79993005BAF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D125A3328C79992005BAF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D125A3A28C79992005BAF28;
+			remoteInfo = horrorinc;
+		};
+		3D125A5B28C79993005BAF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D125A3328C79992005BAF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D125A3A28C79992005BAF28;
+			remoteInfo = horrorinc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D125A3B28C79992005BAF28 /* horrorinc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horrorinc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D125A3E28C79992005BAF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D125A4028C79992005BAF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D125A4328C79992005BAF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D125A4528C79993005BAF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D125A4828C79993005BAF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D125A4A28C79993005BAF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D125A4F28C79993005BAF28 /* horrorincTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horrorincTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D125A5328C79993005BAF28 /* horrorincTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horrorincTests.swift; sourceTree = "<group>"; };
+		3D125A5528C79993005BAF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D125A5A28C79993005BAF28 /* horrorincUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horrorincUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D125A5E28C79993005BAF28 /* horrorincUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horrorincUITests.swift; sourceTree = "<group>"; };
+		3D125A6028C79993005BAF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D125A3828C79992005BAF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A4C28C79993005BAF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A5728C79993005BAF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D125A3228C79992005BAF28 = {
+			isa = PBXGroup;
+			children = (
+				3D125A3D28C79992005BAF28 /* horrorinc */,
+				3D125A5228C79993005BAF28 /* horrorincTests */,
+				3D125A5D28C79993005BAF28 /* horrorincUITests */,
+				3D125A3C28C79992005BAF28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D125A3C28C79992005BAF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D125A3B28C79992005BAF28 /* horrorinc.app */,
+				3D125A4F28C79993005BAF28 /* horrorincTests.xctest */,
+				3D125A5A28C79993005BAF28 /* horrorincUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D125A3D28C79992005BAF28 /* horrorinc */ = {
+			isa = PBXGroup;
+			children = (
+				3D125A3E28C79992005BAF28 /* AppDelegate.swift */,
+				3D125A4028C79992005BAF28 /* ViewController.swift */,
+				3D125A4228C79992005BAF28 /* Main.storyboard */,
+				3D125A4528C79993005BAF28 /* Assets.xcassets */,
+				3D125A4728C79993005BAF28 /* LaunchScreen.storyboard */,
+				3D125A4A28C79993005BAF28 /* Info.plist */,
+			);
+			path = horrorinc;
+			sourceTree = "<group>";
+		};
+		3D125A5228C79993005BAF28 /* horrorincTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D125A5328C79993005BAF28 /* horrorincTests.swift */,
+				3D125A5528C79993005BAF28 /* Info.plist */,
+			);
+			path = horrorincTests;
+			sourceTree = "<group>";
+		};
+		3D125A5D28C79993005BAF28 /* horrorincUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D125A5E28C79993005BAF28 /* horrorincUITests.swift */,
+				3D125A6028C79993005BAF28 /* Info.plist */,
+			);
+			path = horrorincUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D125A3A28C79992005BAF28 /* horrorinc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D125A6328C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorinc" */;
+			buildPhases = (
+				3D125A3728C79992005BAF28 /* Sources */,
+				3D125A3828C79992005BAF28 /* Frameworks */,
+				3D125A3928C79992005BAF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = horrorinc;
+			productName = horrorinc;
+			productReference = 3D125A3B28C79992005BAF28 /* horrorinc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D125A4E28C79993005BAF28 /* horrorincTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D125A6628C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorincTests" */;
+			buildPhases = (
+				3D125A4B28C79993005BAF28 /* Sources */,
+				3D125A4C28C79993005BAF28 /* Frameworks */,
+				3D125A4D28C79993005BAF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D125A5128C79993005BAF28 /* PBXTargetDependency */,
+			);
+			name = horrorincTests;
+			productName = horrorincTests;
+			productReference = 3D125A4F28C79993005BAF28 /* horrorincTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D125A5928C79993005BAF28 /* horrorincUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D125A6928C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorincUITests" */;
+			buildPhases = (
+				3D125A5628C79993005BAF28 /* Sources */,
+				3D125A5728C79993005BAF28 /* Frameworks */,
+				3D125A5828C79993005BAF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D125A5C28C79993005BAF28 /* PBXTargetDependency */,
+			);
+			name = horrorincUITests;
+			productName = horrorincUITests;
+			productReference = 3D125A5A28C79993005BAF28 /* horrorincUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D125A3328C79992005BAF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D125A3A28C79992005BAF28 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3D125A4E28C79993005BAF28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D125A3A28C79992005BAF28;
+					};
+					3D125A5928C79993005BAF28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D125A3A28C79992005BAF28;
+					};
+				};
+			};
+			buildConfigurationList = 3D125A3628C79992005BAF28 /* Build configuration list for PBXProject "horrorinc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D125A3228C79992005BAF28;
+			productRefGroup = 3D125A3C28C79992005BAF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D125A3A28C79992005BAF28 /* horrorinc */,
+				3D125A4E28C79993005BAF28 /* horrorincTests */,
+				3D125A5928C79993005BAF28 /* horrorincUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D125A3928C79992005BAF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D125A4928C79993005BAF28 /* LaunchScreen.storyboard in Resources */,
+				3D125A4628C79993005BAF28 /* Assets.xcassets in Resources */,
+				3D125A4428C79992005BAF28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A4D28C79993005BAF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A5828C79993005BAF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D125A3728C79992005BAF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D125A4128C79992005BAF28 /* ViewController.swift in Sources */,
+				3D125A3F28C79992005BAF28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A4B28C79993005BAF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D125A5428C79993005BAF28 /* horrorincTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D125A5628C79993005BAF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D125A5F28C79993005BAF28 /* horrorincUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D125A5128C79993005BAF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D125A3A28C79992005BAF28 /* horrorinc */;
+			targetProxy = 3D125A5028C79993005BAF28 /* PBXContainerItemProxy */;
+		};
+		3D125A5C28C79993005BAF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D125A3A28C79992005BAF28 /* horrorinc */;
+			targetProxy = 3D125A5B28C79993005BAF28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D125A4228C79992005BAF28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D125A4328C79992005BAF28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D125A4728C79993005BAF28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D125A4828C79993005BAF28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D125A6128C79993005BAF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D125A6228C79993005BAF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D125A6428C79993005BAF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorinc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorinc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D125A6528C79993005BAF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorinc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorinc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D125A6728C79993005BAF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorincTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorincTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horrorinc.app/horrorinc";
+			};
+			name = Debug;
+		};
+		3D125A6828C79993005BAF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorincTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorincTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horrorinc.app/horrorinc";
+			};
+			name = Release;
+		};
+		3D125A6A28C79993005BAF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorincUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorincUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = horrorinc;
+			};
+			name = Debug;
+		};
+		3D125A6B28C79993005BAF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horrorincUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.horrorincUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = horrorinc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D125A3628C79992005BAF28 /* Build configuration list for PBXProject "horrorinc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D125A6128C79993005BAF28 /* Debug */,
+				3D125A6228C79993005BAF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D125A6328C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorinc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D125A6428C79993005BAF28 /* Debug */,
+				3D125A6528C79993005BAF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D125A6628C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorincTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D125A6728C79993005BAF28 /* Debug */,
+				3D125A6828C79993005BAF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D125A6928C79993005BAF28 /* Build configuration list for PBXNativeTarget "horrorincUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D125A6A28C79993005BAF28 /* Debug */,
+				3D125A6B28C79993005BAF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D125A3328C79992005BAF28 /* Project object */;
+}
