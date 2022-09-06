@@ -14,6 +14,7 @@
 		3D125A4928C79993005BAF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D125A4728C79993005BAF28 /* LaunchScreen.storyboard */; };
 		3D125A5428C79993005BAF28 /* horrorincTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A5328C79993005BAF28 /* horrorincTests.swift */; };
 		3D125A5F28C79993005BAF28 /* horrorincUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D125A5E28C79993005BAF28 /* horrorincUITests.swift */; };
+		3D125A6D28C79A2F005BAF28 /* Devil Story TTF Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D125A6C28C79A2F005BAF28 /* Devil Story TTF Personal.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D125A5A28C79993005BAF28 /* horrorincUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horrorincUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D125A5E28C79993005BAF28 /* horrorincUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horrorincUITests.swift; sourceTree = "<group>"; };
 		3D125A6028C79993005BAF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D125A6C28C79A2F005BAF28 /* Devil Story TTF Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Devil Story TTF Personal.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3D125A3D28C79992005BAF28 /* horrorinc */ = {
 			isa = PBXGroup;
 			children = (
+				3D125A6C28C79A2F005BAF28 /* Devil Story TTF Personal.ttf */,
 				3D125A3E28C79992005BAF28 /* AppDelegate.swift */,
 				3D125A4028C79992005BAF28 /* ViewController.swift */,
 				3D125A4228C79992005BAF28 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				3D125A4928C79993005BAF28 /* LaunchScreen.storyboard in Resources */,
 				3D125A4628C79993005BAF28 /* Assets.xcassets in Resources */,
 				3D125A4428C79992005BAF28 /* Main.storyboard in Resources */,
+				3D125A6D28C79A2F005BAF28 /* Devil Story TTF Personal.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
